@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: k8s-hello-app-deploy
 spec:
+  replicas: 10
   selector:
     matchLabels:
       app: k8s-hello-app-deploy
