@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swahyyuu/k8s-hello-world.git"
+  },
+  "keywords": [],
+  "author": "swahyyuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swahyyuu/k8s-hello-world/issues"
+  },
+  "homepage": "https://github.com/swahyyuu/k8s-hello-world#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
